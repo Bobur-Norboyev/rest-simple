@@ -16,7 +16,7 @@ public class IndexController {
     @GetMapping("/")
     public String hello(){
 
-        return "Hello this is Spring Boot REST API example app. Connect to  API use /api context. For list all students /api/students. For single students with id use /api/student/{id}";
+        return "Hello this isSpring Boot REST API example app. Connect to  API use /api context. For list all students /api/students. For single students with id use /api/student/{id}";
     }
 
 }
